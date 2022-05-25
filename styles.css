@@ -38,8 +38,7 @@ h2 {
 	justify-content: space-between;
 	padding: 30px;
 	align-self: center;
-	max-width: 85%;
-	height: 35%;
+	max-width: 400px;
 	margin: 0 auto;
 	color: #fff;
 	border-radius: 20px;
@@ -58,8 +57,7 @@ h2 {
 	align-items: center;
 	padding: 30px;
 	align-self: center;
-	max-width: 85%;
-	height: 35%;
+	max-width: 400px;
 	margin: 0 auto;
 	color: #fff;
 	border-radius: 20px;
@@ -92,11 +90,13 @@ h2 {
 	height: 120px;
 }
 
+.txt {
+	margin-top: 20px;
+}
 .txt p {
 	color: var(--light-grey);
 	font-size: 15px;
 	line-height: 25px;
-	/* margin: 15px 15px; */
 	letter-spacing: 1px;
 }
 
@@ -115,12 +115,14 @@ h2 {
 	color: var(--light-grey);
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 
 .ty-rating {
 	background-color: var(--dark-blue);
 	border-radius: 15px;
 	padding: 10px 30px;
+	margin-top: 20px;
 }
 
 .ty-rating h5 {
@@ -152,7 +154,7 @@ a {
 }
 
 .button {
-	margin: 16px auto 5px auto;
+	margin: 30px auto 5px auto;
 	padding: 17px 5px;
 	background-color: hsl(25, 97%, 53%);
 	border: none;
@@ -173,6 +175,10 @@ a {
 @media (min-width: 900px) {
 	.container,
 	.ty-container {
-		max-width: 30%;
+		max-width: 400px;
+	}
+
+	.ty-text {
+		margin-top: 30px;
 	}
 }
